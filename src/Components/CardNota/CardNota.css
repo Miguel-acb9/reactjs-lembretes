@@ -1,0 +1,27 @@
+.card-nota {
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.card-nota_cabecalho {
+    display: flex;
+    font-size: 1.1em;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-nota_titulo {
+    font-size: 1.2em;
+    margin-right: 12px;
+}
+
+.card-nota_texto {
+    font-size: 1em;
+    margin-top: 10px;
+}
